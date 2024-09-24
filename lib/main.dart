@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         '/': (context) => Page1(),
-        '/Page2': (context) => Page2()
+        '/page2': (context) => Page2()
       },
       initialRoute: '/',
     );
